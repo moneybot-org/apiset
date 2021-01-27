@@ -1,4 +1,4 @@
-#include "ntrtl.h"
+#include "apiset/ntrtl.h"
 
 /**
  * Compares two counted Unicode strings. The return value indicates if the

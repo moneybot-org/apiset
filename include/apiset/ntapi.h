@@ -1,7 +1,7 @@
 #ifndef _NTAPI_
 #define _NTAPI_
 
-#include <windows.h>
+#include <Windows.h>
 #include <sal.h>
 
 #include "ntstatus.h"

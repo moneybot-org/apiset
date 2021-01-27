@@ -1,4 +1,4 @@
-#include "ntrtl.h"
+#include "apiset/ntrtl.h"
 
 /**
  * The RtlInitUnicodeString function initializes an NT counted

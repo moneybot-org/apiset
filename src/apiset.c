@@ -7,8 +7,8 @@
  * @date 11/22/2018
  */
 
-#include "apiset.h"
-#include "ntrtl.h"
+#include "apiset/apiset.h"
+#include "apiset/ntrtl.h"
 
 //
 // ApiSet DLL prefixes.

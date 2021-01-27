@@ -7,9 +7,9 @@
  * @date 11/22/2018
  */
 
-#include "apiset.h"
+#include "apiset/apiset.h"
 
-#include "ntrtl.h"
+#include "apiset/ntrtl.h"
 
 static
 NTSTATUS

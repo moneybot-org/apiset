@@ -7,8 +7,8 @@
  * @date 11/22/2018
  */
 
-#ifndef _API_SET_H_
-#define _API_SET_H_
+#ifndef _APISET_H_
+#define _APISET_H_
 #if defined(_MSC_VER)
 #pragma once
 #endif
@@ -197,6 +197,10 @@ typedef const API_SET_NAMESPACE_ARRAY_V2 *PCAPI_SET_NAMESPACE_ARRAY_V2;
 // API Set Routines
 //
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 NTSTATUS
 APISETAPI
 ApiSetResolveToHostV6(
@@ -243,5 +247,9 @@ ApiSetResolve(
     _In_ PWCHAR ApiSetName,
     _Out_ PUNICODE_STRING ResolvedHostLibrary
     );
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // _ODIN_API_SET_H_
